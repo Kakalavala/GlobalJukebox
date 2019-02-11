@@ -1,0 +1,5 @@
+# The prefix before messages (leave blank for no prefix)
+prefix: '&8&l[&6&lJukebox&8&l]'
+
+# The time players have to cast their votes (in seconds)
+voting-time: 60
