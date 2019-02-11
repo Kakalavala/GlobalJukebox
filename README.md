@@ -1,7 +1,7 @@
 # GlobalJukebox
 GlobalJukebox is a Bukkit plugin that allows players to vote on a record to be played to all players.
 <br />
-Hosted on Spigot: https://www.spigotmc.org/
+Hosted on Spigot: https://www.spigotmc.org/resources/globaljukebox.64799/
 
 Commands
 --------
