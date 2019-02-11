@@ -9,3 +9,25 @@ commands:
   jukebox:
     description: Jukebox main command.
     aliases: [jb]
+
+permissions:
+  jukebox.*:
+    description: Parent permission, can do everything.
+    default: op
+    children:
+      jukebox.toggle: true
+      jukebox.vote: true
+      jukebox.endvote: true
+      jukebox.stop: true
+  jukebox.toggle:
+    description: Permission to toggle music on and off.
+    default: true
+  jukebox.vote:
+    description: Permission to vote for records.
+    default: true
+  jukebox.endvote: 
+    description: Permission to end the current voting.
+    default: op
+  jukebox.stop:
+    description: Permission to stop music for all players.
+    default: op
